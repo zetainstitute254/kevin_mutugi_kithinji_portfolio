@@ -1,0 +1,92 @@
+/* src/components/Education.module.css */
+@import '../styles/_variables.css';
+
+.education {
+padding: 4rem 2rem;
+  background-color: var(--background-light);
+}
+
+.heading {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-dark);
+}
+
+.educationEntry {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.educationEntry:last-child {
+  border-bottom: none;
+  border-left: 0px solid var(--border-color);
+}
+
+.degreeTitle {
+  font-size: 1.4rem;
+  font-weight: var(--heading-font-weight);
+  color: var(--text-dark);
+  margin-bottom: 0.3rem;
+}
+
+.institution, .duration {
+  font-style: italic;
+  color: var(--secondary-color);
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.coursework h4, .projects h4 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.courseworkList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.courseworkList li {
+  background-color: #e0e0e0;
+  padding: 0.3rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.projectEntry {
+  margin-top: 1rem;
+  border-left: 2px solid var(--primary-color);
+  padding-left: 1rem;
+}
+
+.projectEntry h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.projectDuration {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.projectDescription {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1rem;
+  color: var(--secondary-color);
+}
+
+.projectDescription li {
+  list-style-type: disc;
+  margin-bottom: 0.3rem;
+}

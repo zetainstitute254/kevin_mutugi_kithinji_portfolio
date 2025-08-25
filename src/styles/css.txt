@@ -1,0 +1,35 @@
+
+
+  :root {
+    /* Dark Theme Color Palette */
+    --primary-color: #3498db; /* A bright blue for highlights */
+    --secondary-color: #bdc3c7; /* A lighter gray for subtext */
+    --background-light: #2c3e50; /* A dark blue-gray */
+    --background-dark: #1d2b38; /* An even darker background */
+    --text-dark: #ecf0f1; /* Light gray text for dark backgrounds */
+    --text-light: #1d2b38;
+    --border-color: #34495e;
+  }
+
+
+
+  
+html, body {
+    height: 100%; /* Make sure both html and body take up the full viewport height */
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-family-primary);
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+  
+    /* The key to centering everything */
+    display: flex;
+    flex-direction: column; /* Stacks your children vertically */
+    align-items: center; /* Centers your content horizontally */
+    justify-content: center; /* Centers your content vertically */
+  }
