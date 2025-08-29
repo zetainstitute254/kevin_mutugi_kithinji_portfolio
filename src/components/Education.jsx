@@ -7,7 +7,7 @@ function Education() {
 
   return (
     <section id="education" className={styles.education}>
-      <div className="container">
+      <div className={styles.container}>
         <h2 className={styles.heading}>Education</h2>
         {education.map((item, index) => (
           <div key={index} className={styles.educationEntry}>

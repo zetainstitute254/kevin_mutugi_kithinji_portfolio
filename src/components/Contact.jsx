@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section id="contact" className={styles.contact}>
       <div className={styles.container}>
-        <h2>Get in Touch</h2>
+        {/* <h2>Get in Touch</h2> */}
         <div className={styles.contactInfo}>
           <p>
             <strong>Email:</strong>{' '}

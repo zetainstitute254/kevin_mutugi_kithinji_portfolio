@@ -13,10 +13,10 @@ export const cvData = {
     
     about: {
       summary:
-        "A highly motivated and eager Fullstack Software Developer with a strong foundation in both front-end and back-end development. I'm proficient in languages like Java, Python, JavaScript, and C#, with experience in frameworks such as Spring Boot, React, and Django. I'm seeking to apply my skills and contribute to a dynamic team environment.",
+        "A highly motivated and eager Fullstack Software Developer with a strong foundation in both front-end and back-end development. I'm proficient in languages like Java, Python, Node JavaScript, and C#, with experience in frameworks such as Spring Boot, React, and Django. I'm seeking to apply my skills and contribute to a dynamic team environment.",
       
       skills: [
-        "Java", "Kotlin", "C#", "PHP", "Python", "JavaScript", "SQL", "Solidity",
+        "Java", "Kotlin", "C#", "PHP", "Python", "Node js JavaScript", "SQL", "Solidity",
         "React", "Flutter", "Spring Boot", "ASP.NET MVC", "Laravel", "Django", "Flask", "Next.js",
         "MySQL", "PostgreSQL", "MS SQL Server", "SQLite", "MongoDB",
         "Android", "Git", "RESTful APIs", "MVC", "Blockchain Development"
@@ -36,30 +36,7 @@ export const cvData = {
           "Utilized command-line tools (e.g., ping, ipconfig) for network diagnostics and troubleshooting.",
           "Managed user accounts and network settings, ensuring secure access to company resources.",
         ],
-      },
-      {
-        company: "ALL IN ONE EAST AFRICA",
-        role: "Software Engineer",
-        startDate: "May 2016",
-        endDate: "November 2016",
-        description: [
-          "Developed and maintained software for biometric access control and time attendance devices using Datafox and ZKT ECO SDKs, ensuring seamless data synchronization.",
-          "Collaborated with a global team of technicians in Germany to troubleshoot and resolve system bugs and performance issues.",
-          "Engineered and stress-tested new applications to ensure reliability before deployment, significantly reducing post-launch defects.",
-          "Wrote code to facilitate communication between devices and SQL Server, and utilized Team Foundation Server for source control.",
-        ],
-      },
-      {
-        company: "Flex Communications Limited",
-        role: "Software Engineer",
-        startDate: "February 2016",
-        endDate: "April 2016",
-        description: [
-          "Redeveloped existing applications from PHP and PostgreSQL to C# and MSSQL, improving performance and scalability.",
-          "Assisted C++ developers with integrating PHP APIs and developing firmware in Visual Studio 2015.",
-          "Wrote complex queries to facilitate the migration of data from PostgreSQL to MSSQL databases.",
-        ],
-      },
+      },  
       {
         company: "ISON BPO International Limited",
         role: "Software Engineer",
@@ -132,17 +109,79 @@ export const cvData = {
         title: "Machine Learning Model for HIV Patient ART Risk Prediction",
         description:
           "Collaborated in a team to develop a machine learning model using Python to predict ART discontinuation risk for HIV patients. Utilized data analysis techniques to categorize patients into risk groups, providing actionable insights for healthcare providers.",
-        link: null, // No link provided
+          github_link: null, // No link provided
+          live_link: null, // No link provided
       },
       {
         title: "Web Application with Chatbot and Blockchain",
         description:
           "Developed a full-stack web application featuring a chatbot, utilizing React for the front-end and blockchain technology for the back-end. This project enhanced problem-solving skills and demonstrated an ability to meet tight deadlines while applying in-depth knowledge of Javascript and Solidity.",
-        link: "https://github.com/iProjects/kom_consult_chat_app.git", // No link provided
+          github_link: "https://github.com/iProjects/kom_consult_chat_app.git", // No link provided
+          live_link: null, // No link provided
+      },
+      {
+        title: "Elevator API - Node.js & SQLite",
+        description:
+          "A robust and scalable backend solution for a simulated elevator system. Built with Node.js and Express, this API provides asynchronous elevator control, real-time status monitoring, and comprehensive event logging using a SQLite database. Perfect for a building management system.",
+          github_link: "https://github.com/iProjects/elevator-api.git", // No link provided
+          live_link: "https://elevator-api-33fb.onrender.com/api/elevator/logs", // No link provided
       },
       // You can add more projects here if you have them.
     ],
     
+    // ADD THIS NEW PHOTOS SECTION
+  photos: [
+    {
+      id: 1,
+      image: '/photos/passport.jpg',
+      caption: 'A professional headshot.',
+    },
+    {
+      id: 2,
+      image: '/photos/jkuat_degree_certificate.jpg',
+      caption: 'Degree Certificate',
+    },
+    {
+      id: 3,
+      image: '/photos/jkuat_diploma_certificate.jpg',
+      caption: 'Diploma Certificate',
+    },
+    {
+      id: 4,
+      image: '/photos/kehmis_bootcamp_certificate.jpg',
+      caption: 'Hackathon Certificate',
+    },
+    // Add more photo objects as needed
+  ],
+  
+  referees: [
+    {
+      name: "Francis Muraya",
+      title: "Director",
+      company: "Software Providers Limited",
+      phone: "0715413144",
+      email: "fmuraya11@gmail.com",
+      note: "Projects Manager"
+    },
+    {
+      name: "Peter Osiago",
+      title: "Information Systems",
+      company: "Jomo Kenyatta University of Agriculture and Technology",
+      phone: "0711882222",
+      email: "peterosiago@jkuat.ac.ke",
+      note: "Industrial attachment supervisor"
+    },
+    {
+      name: "Brian Kinoti",
+      title: "IT and Telecommunications",
+      company: "Thika Water and Sewerage Company Ltd",
+      phone: "0726400069",
+      email: "muthomi34@gmail.com | bkinoti@thikawater.co.ke",
+      // You can add a note about the second email if you want
+      note: "Attachment Supervisor" 
+    }
+  ],
+
     contact: {
       email: "kevinmutugikithinji@gmail.com",
       phone: "+254740538757",

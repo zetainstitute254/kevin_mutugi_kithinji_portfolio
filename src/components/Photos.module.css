@@ -1,0 +1,59 @@
+/* src/components/Photos.module.css */
+@import '../styles/_variables.css';
+
+.photos {
+  padding: 1rem 0;
+  background-color: var(--background-light);
+}
+
+.heading {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-dark);
+}
+
+.photoGrid {
+  /* The key change to make a two-column layout */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoCard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.photoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.photo {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .photoGrid {
+    /* Change to a single column on mobile */
+    grid-template-columns: 1fr;
+  }
+}

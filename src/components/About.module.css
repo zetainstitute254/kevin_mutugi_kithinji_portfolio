@@ -2,11 +2,32 @@
 .about {
   padding: 4rem 2rem; 
   background-color: var(--background-light);
+  border-radius: 10px;
 }
 
-.container {
-  max-width: 800px;
+.about .container {
+  /* max-width: 800px; */
   margin: 0 auto;
+
+  /* New card styles */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 4rem;
+  
+  max-width: var(--container-width); 
+  
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center; */
+  
+   /* The key to centering everything */
+   display: flex;
+   flex-direction: column; /* Stacks your children vertically */
+   align-items: center; /* Centers your content horizontally */
+   justify-content: center; /* Centers your content vertically */
+
 }
 
 .about h2 {
