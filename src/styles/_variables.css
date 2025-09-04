@@ -10,6 +10,8 @@
     --text-light: #f8f9fa; /* Light text for dark backgrounds */
     --text-primary-light: #ffffff; /* Light text for dark backgrounds */
     --border-color: #ddd; /* Color for borders and lines */
+    --section-border-color: rgb(127, 126, 128); /* Color for borders and lines */
+    
   
     /* Typography */
     --font-family-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,6 +24,14 @@
     --spacing-medium: 1rem;
     --spacing-large: 2rem;
     --container-width: 900px;
-    --header-margin-bottom: 1.5rem;
+    --header-margin-bottom: 1rem;
+
+    --card-border-radius: 10px;
+    --card-background-color: #fff;
+    --section-margin: 0.1rem;  
+    --card-margin-bottom: 0.2rem;
+
+    --contact-form-background-dark: #333; 
+    --contact-card-margin-bottom: 0.1rem;
   }
 

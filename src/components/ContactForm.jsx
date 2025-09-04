@@ -49,7 +49,7 @@ function ContactForm() {
   return (
     <section id="contact" className={styles.contact}>
       <div className={styles.container}>
-        <h2>Get in Touch</h2>
+      <h2 className={styles.heading}>Get in Touch</h2>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>
             <label htmlFor="name">Name</label>

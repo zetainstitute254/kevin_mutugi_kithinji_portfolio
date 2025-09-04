@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.projects}>
       <div className={styles.container}> {/* Note: Use className="container" for global styles */}
-        <h2>My Projects</h2>
+      <h2 className={styles.heading}>My Projects</h2>
         <div className={styles.projectGrid}>
           {projects.map((project, index) => (
             <div key={index} className={styles.projectCard}>

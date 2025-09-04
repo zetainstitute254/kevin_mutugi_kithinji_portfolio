@@ -2,37 +2,51 @@
 @import '../styles/_variables.css';
 
 .photos {
-  padding: 1rem 0;
-  background-color: var(--background-light);
+  padding: 1rem 1rem;
+  border-radius: var(--card-border-radius);
+  margin: var(--section-margin);
+  
+  /* background-color: var(--section-border-color); */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--container-width); 
 }
 
 .heading {
   font-size: 2.8rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: --header-margin-bottom;
   color: var(--text-dark);
 }
 
 .photoGrid {
   /* The key change to make a two-column layout */
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
-  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 0.1rem;
+  justify-content: center; 
   align-items: center;
 }
 
 .photoCard {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  padding: 1.5rem;
-  text-align: center;
-  transition: transform 0.2s ease-in-out;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--card-margin-bottom);
+  padding: 1rem 2rem; 
+ 
+   background-color: var(--card-background-color);
+   border-radius: var(--card-border-radius);
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);    
+
+   border-left: none; 
 }
 
 .photoCard:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 

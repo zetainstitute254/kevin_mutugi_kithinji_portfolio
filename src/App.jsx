@@ -5,7 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
-import Photos from './components/Photos'; 
+import Photos from './components/Photos';
 import Referees from './components/Referees';
 import ContactForm from './components/ContactForm';
 import Contact from './components/Contact';
@@ -18,16 +18,14 @@ function App() {
       <Header />
       <main>
         <About />
+        <Projects />
         <Experience />
         <Education />
-        <Projects />
-        
-        <Referees />
+
       </main>
-      
       <Contact />
     </div>
-     
+
   );
 }
 

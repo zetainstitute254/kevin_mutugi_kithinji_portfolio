@@ -1,5 +1,14 @@
 
 
+
+
+
+        <Referees />
+        <Photos />
+        <ContactForm />
+
+
+
   :root {
     /* Dark Theme Color Palette */
     --primary-color: #3498db; /* A bright blue for highlights */

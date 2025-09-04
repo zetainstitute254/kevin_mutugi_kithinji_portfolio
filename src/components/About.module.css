@@ -1,22 +1,21 @@
 /* src/components/About.module.css */
+@import '../styles/_variables.css';
+
 .about {
-  padding: 4rem 2rem; 
-  background-color: var(--background-light);
-  border-radius: 10px;
+  padding: 1rem 1rem;
+  border-radius: var(--card-border-radius);
+  margin: var(--section-margin);
+
+  /* background-color: var(--section-border-color); */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.about .container {
-  /* max-width: 800px; */
+.container {
   margin: 0 auto;
-
-  /* New card styles */
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  padding: 4rem;
-  
   max-width: var(--container-width); 
-  
+
   /* display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
@@ -30,11 +29,34 @@
 
 }
 
-.about h2 {
-  font-size: 2.5rem;
+.heading {
+  font-size: 2.8rem;
   text-align: center;
-  margin-bottom: 2rem;
-  color: #333;
+  margin-bottom: --header-margin-bottom;
+  color: var(--text-dark);
+}
+
+.aboutEntry { 
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--card-margin-bottom);
+  padding: 1rem 2rem; 
+ 
+   background-color: var(--card-background-color);
+   border-radius: var(--card-border-radius);
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);    
+
+  /* Border styles can be removed or modified */
+  border-bottom: none;  
+}
+
+.aboutEntry:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.aboutEntry:last-child {
+  border-bottom: none;
+  border-left: 0px solid var(--border-color);
 }
 
 .summary {

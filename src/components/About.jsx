@@ -8,17 +8,21 @@ function About() {
   return (
     <section id="about" className={styles.about}>
       <div className={styles.container}>
-        <h2>About Me</h2>
-        <p className={styles.summary}>{summary}</p>
-        <div className={styles.skills}>
-          <h3>Skills</h3>
-          <ul>
-            {skills.map((skill, index) => (
-              <li key={index} className={styles.skillItem}>
-                {skill}
-              </li>
-            ))}
-          </ul>
+        <h2 className={styles.heading}>About Me</h2>
+        <div className={styles.aboutEntry}>
+          <p className={styles.summary}>{summary}</p>
+        </div>
+        <div className={styles.aboutEntry}>
+          <div className={styles.skills}>
+            <h3>Skills</h3>
+            <ul>
+              {skills.map((skill, index) => (
+                <li key={index} className={styles.skillItem}>
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
