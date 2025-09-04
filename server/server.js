@@ -40,7 +40,7 @@ async function setupDatabaseAndStartServer() {
 
     // Email Transporter (replace with your email service details)
     const transporter = nodemailer.createTransport({
-      service: 'gmail', // or 'smtp' for other services
+      service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -50,7 +50,6 @@ async function setupDatabaseAndStartServer() {
     // API endpoint for form submission
     app.post('/api/contact', async (req, res) => {
       const { name, email, phone, message } = req.body;
-
       if (!name || !email || !message) {
         return res.status(400).json({ message: 'Name, email, and message are required.' });
       }
@@ -58,13 +57,11 @@ async function setupDatabaseAndStartServer() {
       const submissionDate = new Date().toISOString();
 
       try {
-        // 1. Insert data into SQLite using async/await
-        const result = await db.run(
+        await db.run(
           'INSERT INTO contact_forms (name, email, phone, message, submission_date) VALUES (?, ?, ?, ?, ?)',
           [name, email, phone, message, submissionDate]
         );
 
-        // 2. Send email notification
         const mailOptions = {
           from: process.env.EMAIL_USER,
           to: process.env.EMAIL_USER,
@@ -83,12 +80,22 @@ async function setupDatabaseAndStartServer() {
         };
 
         await transporter.sendMail(mailOptions);
-
         res.status(200).json({ message: 'Form submitted successfully!' });
 
       } catch (error) {
         console.error('Error processing form submission:', error);
         res.status(500).json({ message: 'Server error. Please try again later.' });
+      }
+    });
+
+    // NEW ROUTE TO FETCH ALL CONTACTS
+    app.get('/api/contacts', async (req, res) => {
+      try {
+        const contacts = await db.all('SELECT * FROM contact_forms');
+        res.json(contacts);
+      } catch (error) {
+        console.error('Error fetching contacts:', error);
+        res.status(500).json({ message: 'Failed to fetch contacts.' });
       }
     });
 
