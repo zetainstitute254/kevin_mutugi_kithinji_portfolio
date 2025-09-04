@@ -131,7 +131,7 @@ export const cvData = {
         description:
           "A personal portfolio website built with React to showcase my skills, projects, and professional experience. This site is designed to be clean, responsive, and easily customizable.",
           github_link: "https://github.com/iProjects/kevin_mutugi_kithinji_portfolio.git", // No link provided
-          live_link: "https://kevin-mutugi-kithinji-portfolio.onrender.com/", // No link provided
+          live_link: null, // No link provided
       },
       // You can add more projects here if you have them.
     ],
