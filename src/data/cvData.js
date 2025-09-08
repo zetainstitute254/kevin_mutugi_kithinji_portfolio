@@ -92,6 +92,8 @@ export const cvData = {
         "Data Structures and Algorithms",
         "Operating Systems",
         "Networking Fundamentals",
+        "Human Computer Interaction",
+        "Artificial Intelligence",
       ],     
     },
     {
@@ -111,27 +113,39 @@ export const cvData = {
           "Collaborated in a team to develop a machine learning model using Python to predict ART discontinuation risk for HIV patients. Utilized data analysis techniques to categorize patients into risk groups, providing actionable insights for healthcare providers.",
           github_link: null, // No link provided
           live_link: null, // No link provided
+          download_link: null, // No link provided
       },
       {
         title: "Web Application with Chatbot and Blockchain",
         description:
           "Developed a full-stack web application featuring a chatbot, utilizing React for the front-end and blockchain technology for the back-end. This project enhanced problem-solving skills and demonstrated an ability to meet tight deadlines while applying in-depth knowledge of Javascript and Solidity.",
-          github_link: "https://github.com/iProjects/kom_consult_chat_app.git", // No link provided
+          github_link: "https://github.com/iProjects/kom_consult_chat_app.git", 
           live_link: null, // No link provided
+          download_link: null, // No link provided
       },
       {
         title: "Elevator API - Node.js & SQLite",
         description:
           "A robust and scalable backend solution for a simulated elevator system. Built with Node.js and Express, this API provides asynchronous elevator control, real-time status monitoring, and comprehensive event logging using a SQLite database. Perfect for a building management system.",
-          github_link: "https://github.com/iProjects/elevator-api.git", // No link provided
-          live_link: "https://elevator-api-33fb.onrender.com/api/elevator/logs", // No link provided
+          github_link: "https://github.com/iProjects/elevator-api.git", 
+          live_link: "https://elevator-api-33fb.onrender.com/api/elevator/logs", 
+          download_link: null, // No link provided
       },
       {
         title: "Portfolio",
         description:
           "A personal portfolio website built with React to showcase my skills, projects, and professional experience. This site is designed to be clean, responsive, and easily customizable.",
-          github_link: "https://github.com/iProjects/kevin_mutugi_kithinji_portfolio.git", // No link provided
+          github_link: "https://github.com/iProjects/kevin_mutugi_kithinji_portfolio.git", 
           live_link: null, // No link provided
+          download_link: null, // No link provided
+      },
+      {
+        title: "Soft Books Payroll",
+        description:
+          "A personal portfolio website built with React to showcase my skills, projects, and professional experience. This site is designed to be clean, responsive, and easily customizable. Click on the download link to download, then rename the file from SBPayrollSetup.msi.kmk to SBPayrollSetup.msi. Run the installer and follow prompts to install the application.",
+          github_link: "https://github.com/iProjects/soft_books_payroll.git", 
+          live_link: null, // No link provided
+          download_link: "https://drive.google.com/file/d/1Fm8wGd_RUmtQNvwYrY9SiqHJEKXvhjND/view?usp=sharing",
       },
       // You can add more projects here if you have them.
     ],

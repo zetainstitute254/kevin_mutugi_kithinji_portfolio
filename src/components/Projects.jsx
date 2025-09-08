@@ -39,6 +39,19 @@ function Projects() {
                     Live Link
                   </a>
                 )}
+
+                {/* Conditionally show the download link only if it exists */}
+                {project.download_link && (
+                  <a
+                    href={project.download_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.projectLink}
+                  >
+                    Download Link
+                  </a>
+                )}
+
               </div>
             </div>
           ))}
