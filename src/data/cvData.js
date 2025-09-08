@@ -106,31 +106,7 @@ export const cvData = {
   ],
 
 
-    projects: [
-      {
-        title: "Machine Learning Model for HIV Patient ART Risk Prediction",
-        description:
-          "Collaborated in a team to develop a machine learning model using Python to predict ART discontinuation risk for HIV patients. Utilized data analysis techniques to categorize patients into risk groups, providing actionable insights for healthcare providers.",
-          github_link: null, // No link provided
-          live_link: null, // No link provided
-          download_link: null, // No link provided
-      },
-      {
-        title: "Web Application with Chatbot and Blockchain",
-        description:
-          "Developed a full-stack web application featuring a chatbot, utilizing React for the front-end and blockchain technology for the back-end. This project enhanced problem-solving skills and demonstrated an ability to meet tight deadlines while applying in-depth knowledge of Javascript and Solidity.",
-          github_link: "https://github.com/iProjects/kom_consult_chat_app.git", 
-          live_link: null, // No link provided
-          download_link: null, // No link provided
-      },
-      {
-        title: "Elevator API - Node.js & SQLite",
-        description:
-          "A robust and scalable backend solution for a simulated elevator system. Built with Node.js and Express, this API provides asynchronous elevator control, real-time status monitoring, and comprehensive event logging using a SQLite database. Perfect for a building management system.",
-          github_link: "https://github.com/iProjects/elevator-api.git", 
-          live_link: "https://elevator-api-33fb.onrender.com/api/elevator/logs", 
-          download_link: null, // No link provided
-      },
+    projects: [      
       {
         title: "Portfolio",
         description:
@@ -150,10 +126,42 @@ export const cvData = {
       {
         title: "Soft Books Sacco",
         description:
-          "Soft Books SACCO Management System is a comprehensive, multi-user, client/server solution for small to large organizations. Built to be dynamic and compliant with Kenyan financial regulations, it promotes accountability, transparency, and efficiency in SACCO operations. Click on the download link to download, then rename the file from SBSaccoSetup.msi.kmk to SBSaccoSetup.msi then run the installer and follow prompts to install the application.",
+          "Soft Books Sacco Management System is a comprehensive, multi-user, client/server solution for small to large organizations. Built to be dynamic and compliant with Kenyan financial regulations, it promotes accountability, transparency, and efficiency in SACCO operations. Click on the download link to download, then rename the file from SBSaccoSetup.msi.kmk to SBSaccoSetup.msi then run the installer and follow prompts to install the application.",
           github_link: "https://github.com/iProjects/soft_books_sacco.git", 
           live_link: null, // No link provided
           download_link: "https://drive.google.com/file/d/1-_UtCuVl3MdQrw9YjolbERQTp8g6omq7/view?usp=sharing",
+      },
+      {
+        title: "Soft Books School",
+        description:
+          "Soft Books School is a robust school management software designed to streamline and automate core administrative and academic functions for educational institutions of all sizes. This system provides a dynamic and user-friendly solution for managing daily school operations, improving efficiency and communication across the board. Click on the download link to download, then rename the file from SBSchoolSetup.msi.kmk to SBSchoolSetup.msi then run the installer and follow prompts to install the application.",
+          github_link: "https://github.com/iProjects/soft_books_school.git", 
+          live_link: null, // No link provided
+          download_link: "https://drive.google.com/file/d/19WOkbZ12L2wQQL77wY1RKyJa_3xTb2jN/view?usp=sharing",
+      },
+      {
+        title: "Elevator API - Node.js & SQLite",
+        description:
+          "A robust and scalable backend solution for a simulated elevator system. Built with Node.js and Express, this API provides asynchronous elevator control, real-time status monitoring, and comprehensive event logging using a SQLite database. Perfect for a building management system.",
+          github_link: "https://github.com/iProjects/elevator-api.git", 
+          live_link: "https://elevator-api-33fb.onrender.com/api/elevator/logs", 
+          download_link: null, // No link provided
+      },
+      {
+        title: "Machine Learning Model for HIV Patient ART Risk Prediction",
+        description:
+          "Collaborated in a team to develop a machine learning model using Python to predict ART discontinuation risk for HIV patients. Utilized data analysis techniques to categorize patients into risk groups, providing actionable insights for healthcare providers.",
+          github_link: null, // No link provided
+          live_link: null, // No link provided
+          download_link: null, // No link provided
+      },
+      {
+        title: "Web Application with Chatbot and Blockchain",
+        description:
+          "Developed a full-stack web application featuring a chatbot, utilizing React for the front-end and blockchain technology for the back-end. This project enhanced problem-solving skills and demonstrated an ability to meet tight deadlines while applying in-depth knowledge of Javascript and Solidity.",
+          github_link: "https://github.com/iProjects/kom_consult_chat_app.git", 
+          live_link: null, // No link provided
+          download_link: null, // No link provided
       },
       // You can add more projects here if you have them.
     ],
