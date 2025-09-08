@@ -142,7 +142,7 @@ export const cvData = {
       {
         title: "Soft Books Payroll",
         description:
-          "A personal portfolio website built with React to showcase my skills, projects, and professional experience. This site is designed to be clean, responsive, and easily customizable. Click on the download link to download, then rename the file from SBPayrollSetup.msi.kmk to SBPayrollSetup.msi. Run the installer and follow prompts to install the application.",
+          "Soft Books Payroll is a comprehensive, multi-user, Client/Server payroll management system designed to provide small, mid-sized, and large organizations with a powerful, yet low-cost, solution for managing their workforce compensation. It is built to be dynamic and fully compliant with the ever-changing tax landscape in Kenya, ensuring businesses stay ahead of government policy changes. Click on the download link to download, then rename the file from SBPayrollSetup.msi.kmk to SBPayrollSetup.msi. Run the installer and follow prompts to install the application.",
           github_link: "https://github.com/iProjects/soft_books_payroll.git", 
           live_link: null, // No link provided
           download_link: "https://drive.google.com/file/d/1Fm8wGd_RUmtQNvwYrY9SiqHJEKXvhjND/view?usp=sharing",
