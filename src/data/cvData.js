@@ -13,13 +13,13 @@ export const cvData = {
     
     about: {
       summary:
-        "A highly motivated and eager Fullstack Software Developer with a strong foundation in both front-end and back-end development. I'm proficient in languages like Java, Python, Node JavaScript, and C#, with experience in frameworks such as Spring Boot, React, and Django. I'm seeking to apply my skills and contribute to a dynamic team environment.",
+        "A highly motivated and eager Fullstack Software Developer with a strong foundation in both front-end and back-end development. I'm proficient in languages like Node JavaScript, C-Sharp, Python, Java, Php, with experience in frameworks such as Express, React, Laravel, and Django. I'm seeking to apply my skills and contribute to a dynamic team environment.",
       
       skills: [
-        "Java", "Kotlin", "C#", "PHP", "Python", "Node js JavaScript", "SQL", "Solidity",
-        "React", "Flutter", "Spring Boot", "ASP.NET MVC", "Laravel", "Django", "Flask", "Next.js",
+        "Node JavaScript", "React", "Express", "C-Sharp", "PHP", "Python", "SQL", "Solidity", "Java", "Kotlin", 
+        "Flutter", "Spring Boot", "ASP.NET MVC", "Laravel", "Django", "Flask", 
         "MySQL", "PostgreSQL", "MS SQL Server", "SQLite", "MongoDB",
-        "Android", "Git", "RESTful APIs", "MVC", "Blockchain Development"
+        "Android", "Git", "RESTful APIs", "Blockchain Development"
       ],
     },
     
@@ -70,7 +70,7 @@ export const cvData = {
         endDate: "April 2012",
         description: [
           "Provided first-level technical support to end-users, troubleshooting and resolving hardware, software, and network-related issues.",
-          "Performed installations and configurations of Windows workstations and operating systems (Windows 7, XP, Vista) to meet client demands.",
+          "Performed installations and configurations of Windows workstations and operating systems to meet client demands.",
           "Managed user accounts on the company domain, including adding, deleting, and modifying profiles and resetting passwords.",
           "Implemented and performed daily data backup procedures and preventative maintenance on company PCs.",
         ],
