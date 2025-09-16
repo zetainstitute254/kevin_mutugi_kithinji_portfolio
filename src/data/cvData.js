@@ -148,6 +148,14 @@ export const cvData = {
           download_link: null, // No link provided
       },
       {
+        title: "Online Ip Telephony",
+        description:
+          "A robust, web-based system for a university's IP telephony network, allowing school staff to search for extensions across various departments and campuses. It's built with PHP, HTML, and CSS, with a focus on a clean, maintainable front-end and a robust back-end for data handling. The solution is designed with a clear Separation of Concerns, making it scalable and easy to maintain.",
+          github_link: "https://github.com/iProjects/jkuat_ip_telephony.git", 
+          live_link: "https://online-ip-telephony.unaux.com/",
+          download_link: null, // No link provided,
+      },
+      {
         title: "Machine Learning Model for HIV Patient ART Risk Prediction",
         description:
           "Collaborated in a team to develop a machine learning model using Python to predict ART discontinuation risk for HIV patients. Utilized data analysis techniques to categorize patients into risk groups, providing actionable insights for healthcare providers.",
